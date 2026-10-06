@@ -36,3 +36,19 @@
 	}
 }
 
+.parent{
+	position: absolute; 
+	left: 100px; 
+	animation: parent 1s infinite alternate; 
+}
+
+@keyframes parent{
+	0%{
+		left: 0x
+	}
+
+	100%{
+		left: 400px;
+	}
+}
+
