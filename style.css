@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.abs {
+	position: absolute;
+}
+
+.eyeball{
+	transition: 1s;
+}
+
+.eyeball:hover{
+	background-color: red !important; 
+	transform: rotate(180deg); 
+	box-shadow: 0 0 200px 200px red; 
+}
+
+.eyeball:active {
+	background-color: white;
+}
+
+@media (max-width: 700px) {
+	.abs{
+		outline: 10px solid red;
+	}
+	body{
+		background-color: green
+	}
+}
+
+@media (max-width: 500px) {
+	.abs{
+		outline-offset: 20px
+	}
+}
+
